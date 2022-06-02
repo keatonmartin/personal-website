@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(35,35,35);
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  color: rgb(240,240,240);
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+}
+#percent {
+  text-shadow: 0 0 5px #fff;
+}
+
+.container {
+  margin: 0 auto 3% auto;
+  width: 50%;
+}
+
+.footer {
+
+}
+
+.btn {
+  margin-top: 1rem;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1rem;
+  border-radius: 0;
+  background-color: rgb(35,35,35);
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.btn:hover {
+  color: gray;
+}
+
+.resume {
+  display: none;
+  margin: 1rem;
+}
+
+.socials {
+  width: 50px;
+  margin: 0 1rem 1rem 1rem;
+}
