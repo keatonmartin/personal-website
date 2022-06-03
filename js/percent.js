@@ -8,5 +8,5 @@ const endDateMs = endDate.getTime();
 
 setInterval(function() {
   let percent = ( Date.now() - startDateMs ) / (endDateMs - startDateMs);
-  $("#percent").text(percent.toFixed(8) + "%");
+  $("#percent").text(percent.toFixed(8) * 100 + "%");
 }, 50);
