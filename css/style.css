@@ -44,7 +44,8 @@ a {
 
 .resume {
   display: none;
-  margin: 1rem;
+  margin: auto;
+  padding-bottom: 5%;
 }
 
 .socials {
