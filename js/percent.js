@@ -1,5 +1,5 @@
 const startDate = new Date("2021-8-17");
-const endDate = new Date("2025-5-5");
+const endDate = new Date("2024-12-20");
 
 const startDateMs = startDate.getTime();
 const endDateMs = endDate.getTime();
