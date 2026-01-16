@@ -34,12 +34,20 @@ Listener.prototype.on = function ()
 
 	document.addEventListener('mouseenter', this.listener, true);
 	document.addEventListener('focus', this.listener, true);
+	document.addEventListener('touchstart', this.listener, true);
+
+	setTimeout(() => {
+		if (this.listener) {
+			this.__onInteraction();
+		}
+	}, 2000);
 }
 
 Listener.prototype.off = function ()
 {
 	document.removeEventListener('mouseenter', this.listener, true);
 	document.removeEventListener('focus', this.listener, true);
+	document.removeEventListener('touchstart', this.listener, true);
 
 	delete this.listener;
 }
