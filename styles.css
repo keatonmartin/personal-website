@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Roboto Mono', 'Consolas', monospace;
+  font-weight: 500;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#typing-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+  white-space: pre-wrap;
+}
+
+#contact-info {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#contact-info p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #333;
+}
+
+
